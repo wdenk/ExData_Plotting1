@@ -23,3 +23,6 @@ hist(data$Global_active_power,
      col="red", 
      ylim=c(0, 1200),
      xlab ="Global Active Power (kilowatts)")
+
+dev.copy(png, file="plot1.png")
+dev.off()
