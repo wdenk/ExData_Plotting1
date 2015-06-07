@@ -16,7 +16,8 @@ l <- list(data, Date)
 with(l, plot(Date, 
                data$Sub_metering_1,
                type="l",
-               ylab = "Energy sub metering"
+               ylab = "Energy sub metering",
+               xlab = ""
                ))
 lines(Date, data$Sub_metering_2, col ="red")
 lines(Date, data$Sub_metering_3, col = "blue")
